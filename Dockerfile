@@ -12,3 +12,5 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update -y
 RUN apt-get install yarn -y
 
+# Install git
+RUN apt-get install git -y
