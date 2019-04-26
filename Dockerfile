@@ -1,4 +1,4 @@
-FROM codercom/code-server
+FROM brainpower/cubicle
 
 # Install Node.js and NPM
 RUN apt-get update -y
